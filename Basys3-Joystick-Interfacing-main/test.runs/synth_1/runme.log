@@ -1,0 +1,396 @@
+
+*** Running vivado
+    with args -log XADCdemo.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source XADCdemo.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source XADCdemo.tcl -notrace
+Command: synth_design -top XADCdemo -part xc7a35tcpg236-1
+Starting synth_design
+WARNING: [Vivado_Tcl 4-393] The 'Synthesis' target of the following IPs are stale, please generate the output products using the generate_target or synth_ip command before running synth_design.
+C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.xci
+
+INFO: [IP_Flow 19-2162] IP 'xadc_wiz_0' is locked:
+* IP definition 'XADC Wizard (3.0)' for IP 'xadc_wiz_0' (customized with software release 2015.1) has a newer minor version in the IP Catalog.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4516
+CRITICAL WARNING: [Synth 8-976] enable has already been declared [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:44]
+CRITICAL WARNING: [Synth 8-2654] second declaration of enable ignored [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:44]
+INFO: [Synth 8-994] enable is declared here [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:25]
+CRITICAL WARNING: [Synth 8-976] enable_d has already been declared [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:46]
+CRITICAL WARNING: [Synth 8-2654] second declaration of enable_d ignored [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:46]
+INFO: [Synth 8-994] enable_d is declared here [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:27]
+WARNING: [Synth 8-6901] identifier 'bird_clk' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:29]
+WARNING: [Synth 8-6901] identifier 'state' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:30]
+WARNING: [Synth 8-6901] identifier 'state' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:34]
+WARNING: [Synth 8-6901] identifier 'bird_clk' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:37]
+WARNING: [Synth 8-6901] identifier 'bird_clk' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:48]
+WARNING: [Synth 8-6901] identifier 'state' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:49]
+WARNING: [Synth 8-6901] identifier 'state' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:53]
+WARNING: [Synth 8-6901] identifier 'bird_clk' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:56]
+WARNING: [Synth 8-6901] identifier 'pipe_pos' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:88]
+WARNING: [Synth 8-6901] identifier 'pipe_pos' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:88]
+WARNING: [Synth 8-6901] identifier 'current_score' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:93]
+WARNING: [Synth 8-6901] identifier 'high_score' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:93]
+WARNING: [Synth 8-6901] identifier 'high_score' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:94]
+WARNING: [Synth 8-6901] identifier 'current_score' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:94]
+WARNING: [Synth 8-6901] identifier 'current_score' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:139]
+WARNING: [Synth 8-6901] identifier 'current_score' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:139]
+WARNING: [Synth 8-6901] identifier 'current_score' is used before its declaration [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:144]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1016.586 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'XADCdemo' [C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/imports/hdl/XADCdemo.v:21]
+INFO: [Synth 8-6157] synthesizing module 'xadc_wiz_0' [C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/synth_1/.Xil/Vivado-12212-LAPTOP-A8JSD84F/realtime/xadc_wiz_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'xadc_wiz_0' (1#1) [C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/synth_1/.Xil/Vivado-12212-LAPTOP-A8JSD84F/realtime/xadc_wiz_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'eos_out' of module 'xadc_wiz_0' is unconnected for instance 'XLXI_7' [C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/imports/hdl/XADCdemo.v:74]
+WARNING: [Synth 8-7023] instance 'XLXI_7' of module 'xadc_wiz_0' has 22 connections declared, but only 21 given [C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/imports/hdl/XADCdemo.v:74]
+INFO: [Synth 8-6157] synthesizing module 'NERP_demo_top' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clockdiv' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/clockdiv.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'clockdiv' (2#1) [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/clockdiv.v:3]
+INFO: [Synth 8-6157] synthesizing module 'segdisplay' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/segdisplay.v:3]
+	Parameter left bound to: 2'b00 
+	Parameter midleft bound to: 2'b01 
+	Parameter midright bound to: 2'b10 
+	Parameter right bound to: 2'b11 
+INFO: [Synth 8-226] default block is never used [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/segdisplay.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'segdisplay' (3#1) [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/segdisplay.v:3]
+INFO: [Synth 8-6157] synthesizing module 'vga640x480' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/vga640x480.v:3]
+	Parameter G bound to: 8'b11111000 
+	Parameter A bound to: 8'b10001000 
+	Parameter M bound to: 8'b10101000 
+	Parameter E bound to: 8'b10011000 
+	Parameter O bound to: 8'b11111000 
+	Parameter V bound to: 8'b11111000 
+	Parameter R bound to: 8'b10101000 
+	Parameter hpixels bound to: 800 - type: integer 
+	Parameter vlines bound to: 521 - type: integer 
+	Parameter hpulse bound to: 96 - type: integer 
+	Parameter vpulse bound to: 2 - type: integer 
+	Parameter hbp bound to: 144 - type: integer 
+	Parameter hfp bound to: 784 - type: integer 
+	Parameter vbp bound to: 31 - type: integer 
+	Parameter vfp bound to: 511 - type: integer 
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000010000 is unreachable [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/vga640x480.v:355]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000010001 is unreachable [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/vga640x480.v:369]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000010010 is unreachable [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/vga640x480.v:384]
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000010011 is unreachable [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/vga640x480.v:398]
+INFO: [Synth 8-6155] done synthesizing module 'vga640x480' (4#1) [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/vga640x480.v:3]
+WARNING: [Synth 8-689] width (11) of port connection 'bird_coord' does not match port width (10) of module 'vga640x480' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:177]
+WARNING: [Synth 8-689] width (10) of port connection 'pipe_pos' does not match port width (9) of module 'vga640x480' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:178]
+INFO: [Synth 8-6157] synthesizing module 'bird' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/bird.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'bird' (5#1) [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/bird.v:3]
+WARNING: [Synth 8-7071] port 'rst' of module 'bird' is unconnected for instance 'flappy' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:195]
+WARNING: [Synth 8-7023] instance 'flappy' of module 'bird' has 8 connections declared, but only 7 given [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:195]
+INFO: [Synth 8-6157] synthesizing module 'RNG' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/RNG.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'RNG' (6#1) [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/RNG.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'NERP_demo_top' (7#1) [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'XADCdemo' (8#1) [C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/imports/hdl/XADCdemo.v:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1016.586 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1016.586 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1016.586 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1016.586 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.srcs/constrs_1/new/myconst.xdc]
+Finished Parsing XDC File [C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.srcs/constrs_1/new/myconst.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.srcs/constrs_1/new/myconst.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/XADCdemo_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/XADCdemo_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1048.203 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1048.203 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1048.203 ; gain = 31.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1048.203 ; gain = 31.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for XLXI_7. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1048.203 ; gain = 31.617
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'segdisplay'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'NERP_demo_top'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    left |                             0001 |                               00
+                 midleft |                             0010 |                               01
+                midright |                             0100 |                               10
+                   right |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'segdisplay'
+WARNING: [Synth 8-327] inferring latch for variable 'red_reg' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/vga640x480.v:450]
+WARNING: [Synth 8-327] inferring latch for variable 'green_reg' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/vga640x480.v:451]
+WARNING: [Synth 8-327] inferring latch for variable 'blue_reg' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/vga640x480.v:452]
+WARNING: [Synth 8-327] inferring latch for variable 'j_reg' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/vga640x480.v:134]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                             1000 |                               11
+*
+                 iSTATE1 |                             0001 |                               01
+                 iSTATE0 |                             0010 |                               10
+                  iSTATE |                             0100 |                               00
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'NERP_demo_top'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1048.203 ; gain = 31.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   33 Bit       Adders := 5     
+	   2 Input   33 Bit       Adders := 1     
+	   2 Input   32 Bit       Adders := 10    
+	   2 Input   12 Bit       Adders := 1     
+	   3 Input   11 Bit       Adders := 4     
+	   2 Input   11 Bit       Adders := 4     
+	   2 Input   10 Bit       Adders := 3     
+	   2 Input    9 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               33 Bit    Registers := 1     
+	               21 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 2     
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input   33 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 3     
+	   4 Input   11 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 3     
+	   4 Input    7 Bit        Muxes := 1     
+	   2 Input    7 Bit        Muxes := 1     
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 3     
+	   7 Input    3 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 29    
+	   7 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 17    
+	   4 Input    2 Bit        Muxes := 1     
+	  16 Input    1 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 19    
+	   3 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1048.203 ; gain = 31.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 1048.203 ; gain = 31.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 1048.203 ; gain = 31.617
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4765] Removing register instance (\flap1/enable_reg ) from module (XADCdemo) as it is equivalent to (\flap1/enable_reg__0 ) and driving same net [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:51]
+INFO: [Synth 8-4765] Removing register instance (\flap1/enable_d_reg ) from module (XADCdemo) as it is equivalent to (\flap1/enable_d_reg__0 ) and driving same net [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:58]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 1060.613 ; gain = 44.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[15]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[14]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[13]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[12]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin di_in[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin dwe_in
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin vp_in
+CRITICAL WARNING: [Synth 8-4442] BlackBox module XLXI_7 has unconnected pin vn_in
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 1066.160 ; gain = 49.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 1066.160 ; gain = 49.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 1066.160 ; gain = 49.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 1066.160 ; gain = 49.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 1066.160 ; gain = 49.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 1066.160 ; gain = 49.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+-----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                    | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+-----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|XADCdemo    | flap1/pipe_gen/rand_reg[20] | 3      | 1     | NO           | NO                 | YES               | 1      | 0       | 
+|XADCdemo    | flap1/pipe_gen/rand_reg[17] | 10     | 1     | NO           | NO                 | YES               | 1      | 0       | 
++------------+-----------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |xadc_wiz_0    |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |xadc_wiz |     1|
+|2     |BUFG     |     2|
+|3     |CARRY4   |    85|
+|4     |LUT1     |    16|
+|5     |LUT2     |   128|
+|6     |LUT3     |    97|
+|7     |LUT4     |   131|
+|8     |LUT5     |   127|
+|9     |LUT6     |   225|
+|10    |MUXF7    |     3|
+|11    |SRL16E   |     2|
+|12    |FDCE     |    40|
+|13    |FDPE     |    12|
+|14    |FDRE     |   146|
+|15    |FDSE     |    10|
+|16    |LD       |     1|
+|17    |LDC      |     3|
+|18    |IBUF     |    15|
+|19    |OBUF     |    38|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 1066.160 ; gain = 49.574
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 19 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1066.160 ; gain = 17.957
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 1066.160 ; gain = 49.574
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1077.199 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 92 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1078.535 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 4 instances were transformed.
+  LD => LDCE: 1 instance 
+  LDC => LDCE: 3 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+41 Infos, 32 Warnings, 23 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:57 . Memory (MB): peak = 1078.535 ; gain = 61.949
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/synth_1/XADCdemo.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file XADCdemo_utilization_synth.rpt -pb XADCdemo_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 29 12:33:51 2023...

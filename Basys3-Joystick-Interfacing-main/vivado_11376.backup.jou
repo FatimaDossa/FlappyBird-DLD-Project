@@ -1,0 +1,147 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sun Nov 26 10:54:49 2023
+# Process ID: 11376
+# Current directory: C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15576 C:\Users\ahmed\Downloads\Basys3-Joystick-Interfacing-main\Basys3-Joystick-Interfacing-main\test.xpr
+# Log file: C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/vivado.log
+# Journal file: C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main\vivado.jou
+#----------------------------------------------------------ststart_guopen_project C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.xpr
+upupdate_compile_order -fileset sources_launch_simulation
+source XADCdemo.tcl
+close_sim
+launch_simulation
+launch_simulation
+source XADCdemo.tcl
+close_sim
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+open_run impl_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+startgroup
+set_property package_pin "" [get_ports [list  CLK100MHZ]]
+place_ports clk W5
+endgroup
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+close_design
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+set_property is_loc_fixed true [get_ports [list  CLK100MHZ]]
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+synth_design -rtl -name rtl_1
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

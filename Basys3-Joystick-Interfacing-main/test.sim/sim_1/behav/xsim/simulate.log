@@ -1,0 +1,5 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+WARNING: file c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Basys3/Projects/Basys3_XADC_Demo/src/ip/xadc_wiz_0_1/xadc_wiz_0/simulation/functional/design.txt could not be opened
+ *** Warning: The analog data file c:/Users/Nate/Desktop/work/GitProject/Demos/DemoTest/Basys3/Projects/Basys3_XADC_Demo/src/ip/xadc_wiz_0_1/xadc_wiz_0/simulation/functional/design.txt for XADC instance XADCdemo.XLXI_7.U0 was not found. Use the SIM_MONITOR_FILE parameter to specify the analog data file name or use the default name: design.txt.
+

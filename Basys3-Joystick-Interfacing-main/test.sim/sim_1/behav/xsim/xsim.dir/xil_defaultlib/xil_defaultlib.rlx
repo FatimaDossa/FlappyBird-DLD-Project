@@ -1,0 +1,12 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/imports/hdl/XADCdemo.v,1700892833,verilog,,,,XADCdemo,,,,,,,,
+C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0_funcsim.v,1700843763,verilog,,C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v,,glbl;xadc_wiz_0,,,,,,,,
+C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v,1700979050,verilog,,C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/RNG.v,,NERP_demo_top,,,,,,,,
+C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/RNG.v,1700639964,verilog,,C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/bird.v,,RNG,,,,,,,,
+C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/bird.v,1700845591,verilog,,C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/clockdiv.v,,bird,,,,,,,,
+C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/clockdiv.v,1700639964,verilog,,C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/segdisplay.v,,clockdiv,,,,,,,,
+C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/segdisplay.v,1700646050,verilog,,C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/vga640x480.v,,segdisplay,,,,,,,,
+C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/vga640x480.v,1700902025,verilog,,C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/imports/hdl/XADCdemo.v,,vga640x480,,,,,,,,

@@ -1,0 +1,25 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 70f6ac49c5fd438fa245c63bb6b011ee --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot XADCdemo_behav xil_defaultlib.XADCdemo xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 11 differs from formal bit length 10 for port 'bird_coord' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:177]
+WARNING: [VRFC 10-3091] actual bit length 10 differs from formal bit length 9 for port 'pipe_pos' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:178]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 2 for port 'fall_accel' [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:201]
+WARNING: [VRFC 10-5021] port 'rst' is not connected on this instance [C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/NERP_demo_top.v:195]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.XADC(INIT_41=16'b010000100001111...
+Compiling module xil_defaultlib.xadc_wiz_0
+Compiling module xil_defaultlib.clockdiv
+Compiling module xil_defaultlib.segdisplay
+Compiling module xil_defaultlib.vga640x480
+Compiling module xil_defaultlib.bird
+Compiling module xil_defaultlib.RNG
+Compiling module xil_defaultlib.NERP_demo_top
+Compiling module xil_defaultlib.XADCdemo
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot XADCdemo_behav

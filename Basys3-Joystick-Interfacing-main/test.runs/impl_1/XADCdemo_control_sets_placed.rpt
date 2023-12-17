@@ -1,0 +1,97 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Nov 29 12:42:30 2023
+| Host         : LAPTOP-A8JSD84F running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file XADCdemo_control_sets_placed.rpt
+| Design       : XADCdemo
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    19 |
+|    Minimum number of control sets                        |    19 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    76 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    19 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     3 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     4 |
+| >= 12 to < 14      |     2 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              40 |           15 |
+| No           | No                    | Yes                    |              42 |           15 |
+| No           | Yes                   | No                     |              35 |           10 |
+| Yes          | No                    | No                     |              27 |           10 |
+| Yes          | No                    | Yes                    |              10 |            4 |
+| Yes          | Yes                   | No                     |              58 |           24 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------+----------------------------------+------------------------------+------------------+----------------+--------------+
+|       Clock Signal      |           Enable Signal          |       Set/Reset Signal       | Slice Load Count | Bel Load Count | Bels / Slice |
++-------------------------+----------------------------------+------------------------------+------------------+----------------+--------------+
+|  CLK100MHZ_IBUF_BUFG    | XLXI_7/drdy_out                  |                              |                1 |              1 |         1.00 |
+|  flap1/U3/j_reg_i_2_n_0 |                                  |                              |                1 |              1 |         1.00 |
+|                         |                                  | flap1/U3/red_reg[2]_i_2_n_0  |                2 |              3 |         1.50 |
+|  flap1/flappy/p_2_in    | flap1/flappy/y_coord[8]_i_2_n_0  | flap1/flappy/y_coord[8]      |                1 |              4 |         4.00 |
+|  CLK100MHZ_IBUF_BUFG    | XLXI_7/drdy_out                  | LED[7]_i_1_n_0               |                2 |              7 |         3.50 |
+|  CLK100MHZ_IBUF_BUFG    | XLXI_7/drdy_out                  | LED[15]_i_1_n_0              |                3 |              7 |         2.33 |
+|  flap1/flappy/p_2_in    | flap1/flappy/y_coord[10]_i_2_n_0 | flap1/flappy/y_coord[7]      |                4 |              7 |         1.75 |
+|  flap1/clk__0_BUFG      | flap1/pipe_array1[7]_i_1_n_0     |                              |                4 |              8 |         2.00 |
+|  flap1/clk__0_BUFG      | flap1/pipe_pos0                  | flap1/pipe_pos               |                4 |             10 |         2.50 |
+|  dclk                   |                                  | clr_IBUF                     |                6 |             10 |         1.67 |
+|  dclk                   | flap1/U3/sel                     | clr_IBUF                     |                4 |             10 |         2.50 |
+|  flap1/flappy/p_2_in    | flap1/flappy/vel                 | flap1/flappy/vel[10]_i_1_n_0 |                6 |             11 |         1.83 |
+|  flap1/clk__0_BUFG      | flap1/pipe_array1[7]_i_1_n_0     | flap1/pipe_array0            |                4 |             12 |         3.00 |
+|  flap1/U1/CLK           |                                  |                              |                3 |             12 |         4.00 |
+|  flap1/U1/CLK           |                                  | clr_IBUF                     |                4 |             15 |         3.75 |
+|  CLK100MHZ_IBUF_BUFG    |                                  | clr_IBUF                     |                5 |             17 |         3.40 |
+|  dclk                   | flap1/pos                        |                              |                5 |             18 |         3.60 |
+|  CLK100MHZ_IBUF_BUFG    |                                  |                              |               11 |             29 |         2.64 |
+|  CLK100MHZ_IBUF_BUFG    |                                  | sw                           |                8 |             32 |         4.00 |
++-------------------------+----------------------------------+------------------------------+------------------+----------------+--------------+
+
+

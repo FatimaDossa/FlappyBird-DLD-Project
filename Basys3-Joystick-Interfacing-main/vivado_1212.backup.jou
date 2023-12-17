@@ -1,0 +1,350 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Nov 25 11:08:27 2023
+# Process ID: 1212
+# Current directory: C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13524 C:\Users\ahmed\Downloads\Basys3-Joystick-Interfacing-main\Basys3-Joystick-Interfacing-main\test.xpr
+# Log file: C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/vivado.log
+# Journal file: C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_hw_manager
+open_run synth_1 -name synth_1
+close_design
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+synth_design -rtl -name rtl_1
+launch_simulation
+source XADCdemo.tcl
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_sim
+set_property used_in_implementation false [get_files  C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/top_tb.v]
+set_property used_in_implementation false [get_files  C:/Users/ahmed/Downloads/FlappyBird-master/FlappyBird-master/tb_vga.v]
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+open_run impl_1
+set_property is_loc_fixed false [get_ports [list  vauxn6]]
+set_property is_loc_fixed true [get_ports [list  vauxn6]]
+set_property is_loc_fixed false [get_ports [list  vauxn6]]
+set_property is_loc_fixed true [get_ports [list  vauxn6]]
+set_property is_loc_fixed false [get_ports [list  vauxn6]]
+set_property is_loc_fixed true [get_ports [list  vauxn6]]
+set_property is_loc_fixed false [get_ports [list  vauxn6]]
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property is_loc_fixed true [get_ports [list  vauxn6]]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top NERP_demo_top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+save_constraints -force
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top XADCdemo [current_fileset]
+set_property top_lib xil_defaultlib [current_fileset]
+set_property top_file C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/imports/hdl/XADCdemo.v [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+refresh_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+refresh_design
+set_property IOSTANDARD LVCMOS33 [get_ports [list h_sync]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list v_sync]]
+place_ports h_sync P19
+place_ports v_sync R19
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top NERP_demo_top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+place_ports hsync P19
+place_ports vsync R19
+place_ports jumprate1 J1
+place_ports jumprate2 L2
+place_ports jumprate3 V2
+place_ports jump_btn T18
+set_property IOSTANDARD LVCMOS33 [get_ports [list hsync]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list jump_btn]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list jumprate1]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list jumprate2]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list jumprate3]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list vsync]]
+place_ports clk W5
+set_property IOSTANDARD LVTTL [get_ports [list down_btn]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list down_btn]]
+place_ports down_btn W19
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+save_constraints -force
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/NERP_demo_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/NERP_demo_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top XADCdemo [current_fileset]
+set_property top_lib xil_defaultlib [current_fileset]
+set_property top_file C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.srcs/sources_1/imports/hdl/XADCdemo.v [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+set_property IOSTANDARD LVCMOS33 [get_ports [list v_sync]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list h_sync]]
+place_ports h_sync P19
+place_ports v_sync R19
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw_manager
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+place_ports {red[0]} G19
+startgroup
+set_property package_pin "" [get_ports [list  {red[2]}]]
+place_ports {red[1]} H19
+endgroup
+place_ports {red[2]} J19
+startgroup
+set_property package_pin "" [get_ports [list  {blue[1]}]]
+place_ports {blue[0]} N18
+endgroup
+place_ports {blue[1]} L18
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ahmed/Downloads/Basys3-Joystick-Interfacing-main/Basys3-Joystick-Interfacing-main/test.runs/impl_1/XADCdemo.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
