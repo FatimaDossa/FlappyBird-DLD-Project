@@ -1,0 +1,1 @@
+This repository is for our Digital Logic Design course project, where we’ve created a modified version of the popular game, Flappy Bird. The game has an easy interface, with the main character being a bird that has to avoid the obstacles which are pipes, otherwise game ends. We have used a joystick as our input and used the BASYS03 board.
